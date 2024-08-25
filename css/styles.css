@@ -1,0 +1,122 @@
+:root{
+  --focus-text-colour:#2196F3;
+  --dark-bg-colour:#2F303A;
+  --bg-colour:#F5F4FA;
+  --norm-bg-colour: #ECECEC;
+  --ar-color: #212121;
+--norm-colour:#757575;
+
+}
+img{
+  display: block;
+}
+.list{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+.site-navigation{
+  font-family: "Roboto", sans-serif;
+   font-size: 14px;
+ font-weight: 500;
+ line-height: 1,17;
+ letter-spacing: 0.02em;
+ color: var(--ar-color)
+ }
+ .contacts{
+  font-family: "Roboto", sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 1,41;
+ letter-spacing: 0.02em;
+ text-align: left;
+ color: var(--norm-colour);
+ }
+ .contacts{
+  display: flex;
+  margin-right: 100px;
+ }
+ .modal-opn-btn{
+   font-family: "Roboto", sans-serif;
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 1,88;
+ letter-spacing: 0.06em;
+ text-align: center;
+ color: #ffffff;
+ }
+ .article{
+  font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 1,41;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--ar-color)
+ }
+ .sup-article{
+  font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1,71;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--norm-colour);
+ }
+ .wwad-article{
+  font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--ar-color);
+ }
+ .our-team{
+  font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 1,17;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--ar-color);
+ }
+ .site-footer{
+  font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 1,71;
+letter-spacing: 0.03em;
+text-align: left;
+color: var(--norm-colour);
+ }
+body{
+  background-color: var(--norm-bg-colour);
+}
+.our-team-list{
+  background-color: var(--bg-colour);
+}
+.site-logo :focus{
+color:var(--focus-text-colour)
+}
+.site-navigation :hover,
+.site-navigation :focus{
+  color:var(--focus-text-colour)
+}
+.contacts :hover,
+.contacts :focus{
+  color:var(--focus-text-colour)
+}
+button{
+  cursor: pointer;
+}
+.modal-opn-btn:hover,
+.modal-opn-btn:focus{
+  background-color: var(--focus-text-colour);
+  color: #ffffff;
+}
+.hero,
+footer{
+  background-color: var(--dark-bg-colour);
+}
